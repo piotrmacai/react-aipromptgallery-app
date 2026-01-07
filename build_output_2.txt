@@ -1,0 +1,26 @@
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+Error: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive
+    at onInvalidCandidate (C:\Dev\React_PromptGalleryApp\app\node_modules\tailwindcss\dist\lib.js:21:1314)
+    at Te (C:\Dev\React_PromptGalleryApp\app\node_modules\tailwindcss\dist\lib.js:16:36652)
+    at C:\Dev\React_PromptGalleryApp\app\node_modules\tailwindcss\dist\lib.js:21:355
+    at Rr (C:\Dev\React_PromptGalleryApp\app\node_modules\tailwindcss\dist\lib.js:3:1718)
+    at _ (C:\Dev\React_PromptGalleryApp\app\node_modules\tailwindcss\dist\lib.js:3:1377)
+    at $e (C:\Dev\React_PromptGalleryApp\app\node_modules\tailwindcss\dist\lib.js:21:172)
+    at un (C:\Dev\React_PromptGalleryApp\app\node_modules\tailwindcss\dist\lib.js:38:294)
+    at async cn (C:\Dev\React_PromptGalleryApp\app\node_modules\tailwindcss\dist\lib.js:38:631)
+    at async Xr (C:\Dev\React_PromptGalleryApp\app\node_modules\@tailwindcss\node\dist\index.js:10:3417)
+    at async I (C:\Dev\React_PromptGalleryApp\app\node_modules\@tailwindcss\postcss\dist\index.js:10:3977)
+[32m✓[39m 2 modules transformed.
+[31mx[39m Build failed in 858ms
+[31merror during build:
+[31m[vite:css] [postcss] tailwindcss: C:/Dev/React_PromptGalleryApp/app/index.css:1:1: Cannot apply unknown utility class `border-border`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive[31m
+file: [36mC:/Dev/React_PromptGalleryApp/app/index.css:1:0[31m
+    at Input.error (C:\Dev\React_PromptGalleryApp\app\node_modules\postcss\lib\input.js:135:16)
+    at Root.error (C:\Dev\React_PromptGalleryApp\app\node_modules\postcss\lib\node.js:146:32)
+    at Object.Once (C:\Dev\React_PromptGalleryApp\app\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)
+    at async LazyResult.runAsync (C:\Dev\React_PromptGalleryApp\app\node_modules\postcss\lib\lazy-result.js:293:11)
+    at async compileCSS (file:///C:/Dev/React_PromptGalleryApp/app/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36898:21)
+    at async Object.transform (file:///C:/Dev/React_PromptGalleryApp/app/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:36171:11)
+    at async transform (file:///C:/Dev/React_PromptGalleryApp/app/node_modules/rollup/dist/es/shared/node-entry.js:21283:16)
+    at async ModuleLoader.addModuleSource (file:///C:/Dev/React_PromptGalleryApp/app/node_modules/rollup/dist/es/shared/node-entry.js:21497:36)[39m
