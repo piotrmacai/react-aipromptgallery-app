@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center gap-2">
           <img src="/images/ainsiderlogo.png" alt="Ainsider Logo" className="h-8 w-auto" />
           <span className="text-xl font-bold tracking-tight text-white hover:text-primary transition-colors duration-300">
-            Ainsider Gallery
+            aPrompts Gallery by Macai.dev
           </span>
         </div>
 

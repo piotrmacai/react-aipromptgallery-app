@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-2">
               <img src="/images/ainsiderlogo.png" alt="Ainsider Logo" className="h-8 w-auto" />
               <h3 className="text-xl font-bold tracking-tight text-white">
-                Ainsider Gallery
+                Ai Art Gallery by Macai.dev
               </h3>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">
@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
               Reverse engineer the impossible and explore the frontier of generative creativity.
             </p>
             <div className="text-xs text-slate-600 font-mono pt-4">
-              &copy; {new Date().getFullYear()} AInsider. All rights reserved.
+              &copy; {new Date().getFullYear()} Macai.dev. All rights reserved.
             </div>
           </div>
 
