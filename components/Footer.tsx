@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-2">
               <img src="/images/ainsiderlogo.png" alt="Ainsider Logo" className="h-8 w-auto" />
               <h3 className="text-xl font-bold tracking-tight text-white">
-                Ai Art Gallery by Macai.dev
+                Promptr Gallery by Macai.dev
               </h3>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs">

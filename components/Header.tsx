@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
         <div className="flex items-center gap-2">
           <img src="/images/ainsiderlogo.png" alt="Ainsider Logo" className="h-8 w-auto" />
           <span className="text-xl font-bold tracking-tight text-white hover:text-primary transition-colors duration-300">
-            aPrompts Gallery by Macai.dev
+            Promptr by Macai.dev
           </span>
         </div>
 
@@ -28,6 +28,18 @@ export const Header: React.FC = () => {
             Gallery
           </NavLink>
           <NavLink
+            to="https://ainsider.cloud"
+            className={({ isActive }) =>
+              clsx(
+                "flex items-center gap-2 text-sm font-medium transition-colors hover:text-primary",
+                isActive ? "text-primary" : "text-slate-400"
+              )
+            }
+          >
+            <Activity className="h-4 w-4" />
+            Tools & Agents Directory
+          </NavLink>
+          {/* <NavLink
             to="/assistant"
             className={({ isActive }) =>
               clsx(
@@ -38,7 +50,7 @@ export const Header: React.FC = () => {
           >
             <Sparkles className="h-4 w-4" />
             Assistant
-          </NavLink>
+          </NavLink> */}
         </nav>
       </div>
     </header>
